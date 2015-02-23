@@ -1,0 +1,24 @@
+{
+	"name": "Stock-Up",
+	"main": "index.html",
+	"chromium-args" : "--enable-threaded-compositing",
+	"webkit": 
+		{
+		"plugin": true
+		},
+		"toolbar":false,
+	"window": 
+		{
+	    "title": "node-webkit demo",
+	    "icon": "link.png",
+	    "toolbar": false,
+	    "frame": false,
+	    "width": 1400,
+	    "height": 500,
+	    "position": "mouse",
+	    "min_width": 400,
+	    "min_height": 700,
+	    "max_width": 1400,
+	    "max_height": 1080
+		}
+}
